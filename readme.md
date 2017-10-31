@@ -7,7 +7,8 @@
 * Controlar o erro por leituras fora das distâncias programadas
 
 Para receber o valor da distância em cm ou mm defina os pinos trigger e echo.
-O valor retornado é do tipo float
+
+O valor retornado pelos métodos distance_mm() e discante_sm() é do tipo float
 
 ```python
 from hcsr04 import HCSR04
