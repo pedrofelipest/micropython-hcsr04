@@ -1,6 +1,6 @@
-#Micropython e sensor hcsr04
+## Micropython e sensor hcsr04
 
-Com esta classe você poderá utilizar o sensor ultrassônico HCSR-04 nas seguintes funções:
+### Com esta classe você poderá utilizar o sensor ultrassônico HCSR-04 nas seguintes funções:
 * Receber a distância em cm
 * Receber a distância em mm
 * Alterar a distância máxima de leitura
@@ -10,6 +10,7 @@ Para receber o valor da distância em cm ou mm defina os pinos trigger e echo.
 O valor retornado é do tipo float
 
 ```python
+from hcsr04 import HCSR04
 h = HCSR04(trigger_pin=16, echo_pin=0)
 
 print(h.distance_mm())
