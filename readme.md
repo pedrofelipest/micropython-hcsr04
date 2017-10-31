@@ -10,6 +10,8 @@ Para receber o valor da distância em cm ou mm defina os pinos trigger e echo.
 
 O valor retornado pelos métodos distance_mm() e discante_sm() é do tipo float
 
+Copie o arquivo hcsr04.py para o microcontrolador e import para código
+
 ```python
 from hcsr04 import HCSR04
 h = HCSR04(trigger_pin=16, echo_pin=0)
